@@ -6,17 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXFileReference section */
-		EFE73BA52D84430D00C45A90 /* AdvanceCombineBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvanceCombineBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
+/* Begin PBXBuildFile section */
+		EF11AC1C2D8536190027EEFA /* AdvanceCombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF11AC1B2D8536190027EEFA /* AdvanceCombineViewModel.swift */; };
+		EFE73BBC2D84431800C45A90 /* AdvanceCombineBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE73BB82D84431800C45A90 /* AdvanceCombineBootcampApp.swift */; };
+		EFE73BBD2D84431800C45A90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE73BBA2D84431800C45A90 /* ContentView.swift */; };
+		EFE73BBE2D84431800C45A90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE73BB62D84431800C45A90 /* Preview Assets.xcassets */; };
+		EFE73BBF2D84431800C45A90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE73BB92D84431800C45A90 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EFE73BA72D84430D00C45A90 /* AdvanceCombineBootcamp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = AdvanceCombineBootcamp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
+/* Begin PBXFileReference section */
+		EF11AC1B2D8536190027EEFA /* AdvanceCombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvanceCombineViewModel.swift; sourceTree = "<group>"; };
+		EFE73BA52D84430D00C45A90 /* AdvanceCombineBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvanceCombineBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE73BB62D84431800C45A90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFE73BB82D84431800C45A90 /* AdvanceCombineBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvanceCombineBootcampApp.swift; sourceTree = "<group>"; };
+		EFE73BB92D84431800C45A90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFE73BBA2D84431800C45A90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EFE73BA22D84430D00C45A90 /* Frameworks */ = {
@@ -32,7 +37,7 @@
 		EFE73B9C2D84430D00C45A90 = {
 			isa = PBXGroup;
 			children = (
-				EFE73BA72D84430D00C45A90 /* AdvanceCombineBootcamp */,
+				EFE73BBB2D84431800C45A90 /* AdvanceCombineBootcamp */,
 				EFE73BA62D84430D00C45A90 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +48,26 @@
 				EFE73BA52D84430D00C45A90 /* AdvanceCombineBootcamp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EFE73BB72D84431800C45A90 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EFE73BB62D84431800C45A90 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFE73BBB2D84431800C45A90 /* AdvanceCombineBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				EFE73BB82D84431800C45A90 /* AdvanceCombineBootcampApp.swift */,
+				EFE73BBA2D84431800C45A90 /* ContentView.swift */,
+				EF11AC1B2D8536190027EEFA /* AdvanceCombineViewModel.swift */,
+				EFE73BB92D84431800C45A90 /* Assets.xcassets */,
+				EFE73BB72D84431800C45A90 /* Preview Content */,
+			);
+			path = AdvanceCombineBootcamp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +84,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				EFE73BA72D84430D00C45A90 /* AdvanceCombineBootcamp */,
 			);
 			name = AdvanceCombineBootcamp;
 			packageProductDependencies = (
@@ -109,6 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFE73BBE2D84431800C45A90 /* Preview Assets.xcassets in Resources */,
+				EFE73BBF2D84431800C45A90 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFE73BBC2D84431800C45A90 /* AdvanceCombineBootcampApp.swift in Sources */,
+				EF11AC1C2D8536190027EEFA /* AdvanceCombineViewModel.swift in Sources */,
+				EFE73BBD2D84431800C45A90 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
